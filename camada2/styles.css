@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em; ;}
+h3{ font-size: 2em; ;}
+p{font-size: 2.25;}
+ul{ list-style: none;}
+li{
+    font-size: 1.25em;
+}
+button{
+    font-size: 1.25em;
+    font-weight: bolder;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgb(0,0,0,0.5);
+    color: white;
+    background-color: rgb(233, 79, 110);
+}
+
+
+button:hover{
+    background-color:rgb(224, 21, 62)
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+.color-acento{ color: crimson;}
+
+header{
+    background-color: rgb(245, 245, 245);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bolder;
+    color: crimson;
+    font-size: 1.6em;
+
+}
+header .container{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+    header a:hover{
+        color: crimson;
+    }
+
+    #hero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 90%;
+        color: white;
+        background-image: linear-gradient( 
+            0dgr,
+        rgb(0,0,0,0.5)
+        rgb(0,0,0,0.5));
+          
+        
+        background-image : url(https://holatelcel.com/wp-content/uploads/2021/10/donas-homero-simpson.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center; }
+
+        #hero h1{
+            color: white;
+        }
+
+       
