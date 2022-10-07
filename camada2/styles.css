@@ -2,8 +2,13 @@
     box-sizing: border-box;
 
 }
+
+html{
+    scroll-behavior:smooth ;
+}
+
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     margin: 0;
 }
 
@@ -12,15 +17,16 @@ h2{ font-size: 2.7em; ;}
 h3{ font-size: 2em; ;}
 p{font-size: 2.25;}
 ul{ list-style: none;}
-li{
-    font-size: 1.25em;
-}
+li{font-size: 1.25em;}
+
+
 button{
     font-size: 1.25em;
     font-weight: bolder;
     padding: 10px 30px;
     border-radius: 5px;
     border: 2px solid rgb(0,0,0,0.5);
+     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
     color: white;
     background-color: rgb(233, 79, 110);
 }
@@ -40,7 +46,7 @@ header{
 }
 
 header .logo{
-    margin: 0;
+   margin: 0;
     padding: 25px 30px;
     font-weight: bolder;
     color: crimson;
@@ -63,33 +69,120 @@ header a{
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color:black;
 }
     header a:hover{
         color: crimson;
     }
-
+    
     #hero{
         display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        flex-direction: column;
-        height: 90%;
-        color: white;
-        background-image: linear-gradient( 
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+         flex-direction: column;
+         height: 90vh;
+         color: white;
+         background-image: linear-gradient( 
+             0dgr,
+         rgb(0,0,0,0.5)
+         rgb(0,0,0,0.5));
+         background-image : url(https://holatelcel.com/wp-content/uploads/2021/10/donas-homero-simpson.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center center;
+        }
+        #hero h1{
+            color: white;
+        
+        }
+       
+       
+        #somos-dulcepaladar .container{
+            text-align: center;
+            padding: 200px 12px;
+
+        }
+        #nuestros-productos{
+            background-color:rgb(226, 134, 180);
+            color:crimson;
+        }
+        #nuestros-productos .container{
+            text-align: center;
+            padding: 150px 12px;
+        }
+        #nuestos-productos .h2{
+            margin-top: 0;
+            font-size: 5.2em;
+        }
+        #nuestos-productos  p{
+            display: none;
+        }
+        #nuestros-productos .carta p{  
+            display: none;
+        }
+        #nuestros-productos .carta{
+            background-position: center center;
+            background-size:cover ;
+            padding: 30px;
+            margin: 20px;
+            border-radius: 15px;
+        }
+
+        
+        .carta:first-child {
+            background-image: linear-gradient( 
+            0dgr,
+         rgb(0,0,0,0.5)
+         rgb(0,0,0,0.5));
+         background-image: url(https://media.istockphoto.com/photos/delicious-glazed-donuts-falling-on-turqouise-blue-background-picture-id1352848681?b=1&k=20&m=1352848681&s=170667a&w=0&h=I87MauvdMORcttILjIK3iQmDCop3TOGmKIJv19HUpA0=);
+         background-position: center center;
+         background-size: cover;
+        }
+        
+         .carta:nth-child(2){
+           background-image: linear-gradient( 
             0dgr,
         rgb(0,0,0,0.5)
         rgb(0,0,0,0.5));
-          
-        
-        background-image : url(https://holatelcel.com/wp-content/uploads/2021/10/donas-homero-simpson.jpg);
-        background-repeat: no-repeat;
+        background-image : url(https://st.depositphotos.com/1177973/3441/i/600/depositphotos_34418769-stock-photo-sweet-donuts-isolated-on-white.jpg);
+        background-position: center center;
         background-size: cover;
-        background-position: center center; }
-
-        #hero h1{
-            color: white;
+        
+        }
+        .carta:nth-child(3){
+            background-image: linear-gradient( 
+            0dgr,
+         rgb(0,0,0,0.5)
+         rgb(0,0,0,0.5));
+         background-image : url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnzH0iMn3-5zrklgJIy8QOT2aBImW1mZe9ZA&usqp=CAU);
+         background-position: center center;
+         background-size: cover;
         }
 
-       
+
+        #caracteristicas.container{
+            text-align: center;
+            padding: 200px 12px;
+        }
+        #caracteristicas li{
+            margin: 16px 0px;
+            font-weight: bold;
+        }   
+        #seleccionar{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: rgba(30,30,30);
+            color: white;
+
+        }
+        
+
+        
+
+    
+    
+    
