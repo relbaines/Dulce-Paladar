@@ -97,10 +97,42 @@ header a {
     color: black;
 }
 
-header a:hover {
-    color: crimson;
-}
-
+    header a:hover{
+        color: crimson;
+    }
+    
+    #hero{
+        display: flex;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+         flex-direction: column;
+         height: 90% ;
+         color: white;
+         background-image: linear-gradient( 
+             0dgr,
+         rgb(0,0,0,0.5)
+         rgb(0,0,0,0.5));
+         background-image : url(https://holatelcel.com/wp-content/uploads/2021/10/donas-homero-simpson.jpg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center center;
+        }
+        #hero h1{
+            color: white;
+        
+        }
+       
+       
+        #somos-dulcepaladar .container{
+            text-align: center;
+            /* padding */
+        }
+    
+      header a:hover{
+        color: crimson;
+      }
+  
 #hero {
     display: flex;
     align-items: center;
@@ -109,8 +141,10 @@ header a:hover {
     flex-direction: column;
     height: 90vh;
     color: white;
-    background-image: linear-gradient(0dgr,
-            rgb(0, 0, 0, 0.5) rgb(0, 0, 0, 0.5));
+    background-image: linear-gradient( 
+             0dgr,
+         rgb(0,0,0,0.5)
+         rgb(0,0,0,0.5));
     background-image: url(https://holatelcel.com/wp-content/uploads/2021/10/donas-homero-simpson.jpg);
     background-repeat: no-repeat;
     background-size: cover;
