@@ -46,7 +46,7 @@ header{
 }
 
 header .logo{
-   margin: 0;
+    margin: 0;
     padding: 25px 30px;
     font-weight: bolder;
     color: crimson;
@@ -92,22 +92,25 @@ header a{
          background-size: cover;
          background-position: center center;
         }
-        #hero h1{
-            color: white;
         
+     #hero h1{
+            color: white;
         }
-       
-       
-        #somos-dulcepaladar .container{
-            text-align: center;
-            padding: 200px 12px;
 
-        }
+         #somos-dulcepaladar{
+            display: flex;
+            text-align: center;
+            padding: 200px 12px;}
+
+        
+        
+        
+            
         #nuestros-productos{
             background-color:rgb(226, 134, 180);
             color:crimson;
         }
-        #nuestros-productos .container{
+        #nuestros-productos{
             text-align: center;
             padding: 150px 12px;
         }
@@ -161,13 +164,16 @@ header a{
         }
 
 
-        #caracteristicas.container{
+        #caracteristicas .container{
             text-align: center;
             padding: 200px 12px;
+            
         }
         #caracteristicas li{
             margin: 16px 0px;
             font-weight: bold;
+            
+            
         }   
         #seleccionar{
             display: flex;
@@ -175,13 +181,110 @@ header a{
             justify-content: center;
             align-items: center;
             text-align: center;
-            background-color: rgba(30,30,30);
+            background-color: rgb(221, 147, 184);
             color: white;
+            height: 80vh;
 
         }
+        #seleccionar h2{
+            font-size: 5vw;
+        }
+        #seleccionar button{
+        font-size: 3vw;
+        }
+
+        footer{
+            background-color: rgb(230, 230, 230);
+
+
+        }
+
+        footer p{
+            margin: 0;
+            padding: 12px;
+            color: rgb(223, 32, 112);
+        }
+        footer .container{
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+        
+        @media (min-width: 720px){
+            header{
+                position: fixed;
+                width: 100%;
+            }
+            header .container{
+                flex-direction: row;
+                justify-content: space-between;
+            }
+         }
+
+         header nav{
+            flex-direction: row;
+            padding-bottom: 0;
+            padding-right: 20px;
+         }
+
+         #hero h1{
+            font-size: 5em;
+         } 
+         #somos-dulcepaladar .container{
+            display: flex;
+            justify-content: center;
+
+         }
+          
+         #nuestros-programas .programas{
+            display: flex;
+            justify-content:center ;
+        }
+        #nuestros-programas p{
+            display: block;
+        }
+        #nuestros-programas .carta{
+            padding: 15px;}
+       
+       #caracteristicas {
+        background-image: url(https://i.pinimg.com/474x/f4/a2/37/f4a237480dd4f2d51c0aa72c71255aa9.jpg);
+        background-repeat: no-repeat;
+        background-size: 150px 300px;
+        background-position:calc(100vw - 500px) 120px;
+        
+       }
+       
+       #caracteristicas .container{
+        text-align: initial;
+    }
+
+       #caracteristicas ul{
+        margin-left: 100px;
+       }
+       #seleccionar h2{
+        font-size: 5em;
+       }
+       #seleccionar button{
+        font-size: 2em;
+       }
+       footer .container{
+         justify-content: flex-end;
+       }
+
+       
+
+        @media ( min-width:1400px){
+            #caracteristicas{
+                background-position-x: calc(100vw - 800px);
+
+            }
+        }
+            
+            
+            
         
 
-        
 
     
     
